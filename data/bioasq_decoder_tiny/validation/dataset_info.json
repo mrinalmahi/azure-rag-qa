@@ -1,0 +1,65 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "bio_asq-task-b-revised",
+  "dataset_size": 60181114,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/BastienHot/BioASQ-Task-B-Revised@343bcccbc98d19ef9e0d840912b58822a0c79b7b/data/train-00000-of-00001.parquet": {
+      "num_bytes": 31610261,
+      "checksum": null
+    },
+    "hf://datasets/BastienHot/BioASQ-Task-B-Revised@343bcccbc98d19ef9e0d840912b58822a0c79b7b/data/test-00000-of-00001.parquet": {
+      "num_bytes": 3483386,
+      "checksum": null
+    }
+  },
+  "download_size": 35093647,
+  "features": {
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "labels": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "List"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 95274761,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 54197379,
+      "num_examples": 34713,
+      "dataset_name": "bio_asq-task-b-revised"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 5983735,
+      "num_examples": 3858,
+      "dataset_name": "bio_asq-task-b-revised"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
